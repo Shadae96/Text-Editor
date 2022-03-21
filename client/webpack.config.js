@@ -54,7 +54,6 @@ module.exports = () => {
       }),
     ],
 
-
     module: {
       // CSS loaders
       rules: [
