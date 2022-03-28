@@ -37,8 +37,9 @@ console.log('data has been saved to Jate database', result.value);
 
 
 // TODO: Add logic for a method that gets all the content from the database
+
 export const getDb = async () => {
-  console.error('getting data from jate database');
+  console.log('getting data from jate database');
 
 const jateDB = await openDB ('jate', 1);
 
